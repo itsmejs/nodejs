@@ -1,0 +1,41 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title #{doctitle}
+    link(rel="stylesheet" href="../main.css")
+    link(rel="stylesheet" href="../style.css")
+  body
+    header
+      .header-nav
+        h1
+          a.nav-logo(href="/") Book-Shop
+        ul.nav-lists
+          li
+            a.nav-link(href="/") Home
+          li
+            a.nav-link(href="/admin/add-books") Add Books
+          li
+            a.nav-link(href="/book-lists") Books List
+          li
+            a.nav-link(href="/cart") Cart
+          li
+            a.nav-link(href="/admin/adminbooklists") Admin Products
+
+    main
+      section.section-form
+        block content
+
+    footer
+      .footer-nav
+        h3 All rights Reserved
+        ul.footer-nav-links
+          li
+            a.footer-link(href="/") Home
+          li
+            a.nav-link(href="/add-books") Add Books
+          li
+            a.footer-link(href="/book-lists") Books List
+          li
+            a.footer-link(href="/cart") Cart

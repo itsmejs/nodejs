@@ -1,0 +1,17 @@
+extends layout/main.pug
+
+block content
+    .product-box.grid
+        each product in prods
+            .book-box
+              .img-box
+                img.book-img(src=product.image, alt="a story of struggle")
+              .title-box #{product.title}
+              .details
+                h3.price Price : $ #{product.price}
+                p.description 
+                form(method="POST", action="/cart")
+                  input(type="hidden", name="productId", value=product.id)
+                  button.add-to-cart-btn(type="submit") Add to Cart
+
+

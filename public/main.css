@@ -1,0 +1,123 @@
+.section-form {
+  width: 120rem;
+  margin: 0 auto;
+  padding: 5.4rem 0;
+}
+
+.form-sec {
+  /* margin: 5.4rem 0; */
+  width: 60rem;
+  background-color: antiquewhite;
+  padding: 1.4rem 1.6rem;
+  font-size: 1.6rem;
+}
+
+.form-sec h1 {
+  margin-bottom: 3.2rem;
+}
+
+.form-element {
+  display: flex;
+  flex-direction: column;
+  margin: 0.8rem 0;
+}
+
+.btn {
+  border: none;
+  padding: 0.4rem 1.2rem;
+  background-color: rgba(30, 124, 231, 0.555);
+  color: white;
+  font-weight: 600;
+  margin-top: 1.4rem;
+}
+
+.btn-edit:link {
+  border: none;
+  display: inline-block;
+  padding: 0.8rem 1.2rem;
+  background-color: brown;
+  color: white;
+  font-weight: 600;
+  margin-left: 1.6rem;
+  border-radius: 9px;
+  text-decoration: none;
+  align-content: center;
+}
+
+input {
+  padding: 0.4rem 1.2rem;
+  width: 50rem;
+}
+
+label {
+  padding-bottom: 0.8rem;
+}
+
+/* buttons  */
+
+.button-container {
+  display: flex;
+  gap: 10px; /* Space between buttons */
+  margin-top: 10px; /* Space above the buttons */
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.edit-btn {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+
+button.edit-btn:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+button.add-to-cart-btn {
+  background-color: #008cba; /* Blue */
+  color: white;
+}
+
+button.add-to-cart-btn:hover {
+  background-color: #007bb5; /* Darker blue on hover */
+}
+
+/* Grid Section */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 3.2rem;
+  row-gap: 3.2rem;
+  margin-top: 3.2rem;
+}
+
+.book-box {
+  background-color: white;
+  margin: 1.2rem;
+  /* border: 1px solid brown; */
+  box-shadow: 3px 3px 5px 6px #ccc;
+  overflow: hidden;
+}
+
+.book-img {
+  width: 100%;
+  height: 37.4rem;
+  /* object-fit: scale-down; */
+}
+
+.title-box {
+  padding: 1.2rem 0.2rem 0 0;
+  font-size: 1.8rem;
+}
+
+.details {
+  padding: 1.2rem 0.2rem;
+  font-size: 1.4rem;
+}

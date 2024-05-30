@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  background-color: aliceblue;
+}
+
+.header-nav {
+  width: 140rem;
+  margin: 0 auto;
+  height: 6.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo:link,
+.nav-logo:visited {
+  font-size: 2.4rem;
+  color: rgb(78, 76, 76);
+  text-decoration: none;
+}
+
+.nav-lists {
+  display: flex;
+  justify-content: space-around;
+  gap: 3.2rem;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: grey;
+  transition: all 0.3s;
+}
+
+.nav-link:active,
+.nav-link:hover {
+  font-size: 2rem;
+}
+/* Main  */
+
+main {
+  height: 90vh;
+  /* background-color: white; */
+}
+
+/* footer Nav */
+
+footer {
+  background-color: rgb(101, 131, 156);
+}
+
+.footer-nav {
+  width: 140rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-nav-links {
+  width: 90rem;
+  margin: 0 auto;
+  height: 6.4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: rgb(19, 2, 2);
+  transition: all 0.3s;
+}
